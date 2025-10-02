@@ -3,13 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Order Confirmation</title>
-  <link rel="stylesheet" href="styleorder.css">
+  <title>Order Placed</title>
+  <link rel="stylesheet" href="order.css">
 </head>
 <body>
-  <div class="confirmation">
-    <h2>✅ Order placed successfully!</h2>
-    <a href="sample.html" class="back-link">⬅ Back to Products</a>
+  <div class="order-container">
+    <h2>✅ Order Placed Successfully!</h2>
+    <table id="orderTable">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Product Name</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <a href="sample.html" class="btn">⬅ Back to Products</a>
   </div>
+
+  <script src="order.js"></script>
 </body>
 </html>
